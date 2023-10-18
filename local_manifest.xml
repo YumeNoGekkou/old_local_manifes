@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="Mi680" fetch="https://github.com/mi-sdm680" />
+
+  <!-- /* device specific trees */ -->
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes.git" remote="t25" revision="miku-tda" />
+  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes.git" remote="t25" revision="13.0" />
+  <project path="kernel/xiaomi/sm6225" name="android_kernel_xiaomi_sm6225.git" remote="Mi680" revision="spes-r-oss" />
+
+  <!-- /* common dependencies */ -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="t25" revision="lineage-20" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys.git" remote="LOS" revision="lineage-20.0" />
+
+  <!-- /* memeparts */ -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings.git" remote="LOS" revision="lineage-20.0" />
+
+</manifest>
