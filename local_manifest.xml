@@ -13,7 +13,4 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="t25" revision="lineage-20" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys.git" remote="LOS" revision="lineage-20.0" />
 
-  <!-- /* memeparts */ -->
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings.git" remote="LOS" revision="lineage-20.0" />
-
 </manifest>
